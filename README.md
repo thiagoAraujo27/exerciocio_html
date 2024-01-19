@@ -7,21 +7,19 @@
         <mate name="vieeport" content="width=device-windth, initial-scale">
         <title>tabelas</title>
         </head>
-</html>
         <body>
             <h1> Formularios cadastral</h1>
             <form>
                 <label for="text" > Nome </label>
-                <input type="text" />
+                <input id="text" type="text" />
                 <br>
-                <label for="e-mail" > E-mail</label>
+                <label for="email" > E-mail</label>
                 <input id="email" type="email"/>
                 <br>
                 <label for="password" > Senha</label>
-                <input type="password" />
+                <input id="passaword" type="password" />
                 <br>
-                <button type="register"> Cadastrar </button>
-
-
+                <button type="submit"> Cadastrar </button>
             </form>
         </body>
+    </html>
